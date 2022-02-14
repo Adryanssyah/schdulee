@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <!-- icon -->
+            <link rel="stylesheet" href="assets/icon/css/all.css" />
+            <link rel="stylesheet" href="assets/icon/css/fontawesome.css" />
+            <link rel="stylesheet" href="assets/icon/css/brands.css" />
+            <link rel="stylesheet" href="assets/icon/css//solid.css" />
+            <!-- BOOTSTRAP -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+            <!-- CSS -->
+            <link rel="stylesheet" href="assets/css/dashboard.css" />
+            <link rel="stylesheet" href="assets/css/element.css" />
+            <link rel="stylesheet" href="assets/css/all.css" />
+            <title>Dashboard</title>
+      </head>
+      <body>
+            <!-- NAVBAR -->
+            <navbar>
+                  <div class="kiri">
+                        <p><a href="#">Home</a></p>
+                        <p><a class="on" href="#">Dashboard</a></p>
+                        <p><a href="#">About</a></p>
+                        <p><a href="#">Akun</a></p>
+                  </div>
+
+                  <div class="kanan">
+                        <div class="search-btn">
+                              <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+                        </div>
+                  </div>
+            </navbar>
+
+            <!-- ISI -->
+            <div class="isi">
+                  <!-- SIDEBAR -->
+                  <div class="sidebar">
+                        <div class="sub">
+                              <p>JADWAL SAYA</p>
+                        </div>
+                        <!-- DAFTAR JADWAL -->
+                        <div class="list">
+                              <p><i>•</i><a class="on" href="#">Perkuliahan</a></p>
+                              <p><i>•</i><a href="#">Pengajian</a></p>
+                              <p><i>•</i><a href="#">Makan</a></p>
+                              <p><i>•</i><a href="#">Movie Time</a></p>
+                              <p><i>•</i><a href="#">Boker</a></p>
+                        </div>
+                        <!-- TOMBOL TAMBAH -->
+                        <div class="tambah">
+                              <button id="tambahJadwal"><i class="fa-solid fa-circle-plus"></i> Tambah</button>
+                        </div>
+                  </div>
+                  <!-- 3 BOX -->
+                  <div class="konten">
+                        <!-- BAGIAN JUDUL JADWAL -->
+                        <div class="title">
+                              <div class="left">
+                                    <h2>Perkuliahan</h2>
+                                    <p><i class="fa-solid fa-user-group"></i> | Penjadwalan Grup</p>
+                              </div>
+                              <div class="right">
+                                    <button class="share"><i class="fa-solid fa-paper-plane"></i></button>
+                                    <button class="publik"><i class="fa-solid fa-earth-oceania"></i> Publik <i class="fa-solid fa-caret-down"></i></button>
+                                    <button class="hapus"><i class="fa-solid fa-trash"></i> Hapus</button>
+                              </div>
+                        </div>
+                        <!-- EDIT JADWAL -->
+                        <div class="edit-session">
+                              <div class="edit"></div>
+                              <!-- BOX PALING KANAN -->
+                              <div class="upcoming">
+                                    <div class="participans">
+                                          <h5>Participans</h5>
+                                          <div class="box">
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Rojali</p>
+                                                      <i class="fa-solid fa-crown"></i>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>budiman</p>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Sukiman</p>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Rubiman</p>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Rubiman</p>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Rubiman</p>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Rubiman</p>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Rubiman</p>
+                                                </div>
+                                                <div class="user">
+                                                      <img src="assets/img/default.jpg" alt="" />
+                                                      <p>Rubiman</p>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <!-- BAGIAN KALENDER YANG AKAN DATANG -->
+                                    <div class="kalender">
+                                          <h5>Upcoming</h5>
+                                          <div class="bulan">
+                                                <p>Februari 2022</p>
+                                                <div class="tombol-tgl">
+                                                      <button><i class="fa-solid fa-caret-left"></i></button>
+                                                      <button><i class="fa-solid fa-caret-right"></i></button>
+                                                </div>
+                                          </div>
+                                          <div class="hari">
+                                                <div class="col">
+                                                      <h6>Min</h6>
+                                                      <a href="#">13</a>
+                                                </div>
+                                                <div class="col">
+                                                      <h6>Sen</h6>
+                                                      <a href="#" class="active">14</a>
+                                                </div>
+                                                <div class="col">
+                                                      <h6>Sel</h6>
+                                                      <a href="#">15</a>
+                                                </div>
+                                                <div class="col">
+                                                      <h6>Rab</h6>
+                                                      <a href="#">16</a>
+                                                </div>
+                                                <div class="col">
+                                                      <h6>Kam</h6>
+                                                      <a href="#">17</a>
+                                                </div>
+                                                <div class="col">
+                                                      <h6>Jum</h6>
+                                                      <a href="#">18</a>
+                                                </div>
+                                                <div class="col">
+                                                      <h6>Sab</h6>
+                                                      <a href="#">19</a>
+                                                </div>
+                                          </div>
+                                          <!-- YANG AKAN DATANG -->
+                                          <div class="activity">
+                                                <!-- DAFTAR UPCOMING -->
+                                                <div class="daftar">
+                                                      <img src="assets/img/2.jpeg" alt="" />
+                                                      <div class="ket">
+                                                            <h5>Metodologi penelitian</h5>
+                                                            <p><i class="fa-solid fa-clock"></i> 90 menit</p>
+                                                      </div>
+                                                </div>
+                                                <div class="daftar">
+                                                      <img src="assets/img/2.jpeg" alt="" />
+                                                      <div class="ket">
+                                                            <h5>Metodologi penelitian</h5>
+                                                            <p><i class="fa-solid fa-clock"></i> 90 menit</p>
+                                                      </div>
+                                                </div>
+                                                <div class="daftar">
+                                                      <img src="assets/img/2.jpeg" alt="" />
+                                                      <div class="ket">
+                                                            <h5>Metodologi penelitian</h5>
+                                                            <p><i class="fa-solid fa-clock"></i> 90 menit</p>
+                                                      </div>
+                                                </div>
+                                                <div class="daftar">
+                                                      <img src="assets/img/2.jpeg" alt="" />
+                                                      <div class="ket">
+                                                            <h5>Metodologi penelitian</h5>
+                                                            <p><i class="fa-solid fa-clock"></i> 90 menit</p>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- MODAL -->
+            <div class="modal-tambah" id="modal-tambah">
+                  <div class="tambah-jadwal">
+                        <span class="close">&times;</span>
+                        <div class="form">
+                              <h3>Buat Jadwal</h3>
+                              <form action="">
+                                    <input class="create" type="text" placeholder="Nama Jadwal" />
+                                    <div class="tipe">
+                                          <input class="pribadi" type="radio" name="tipe" id="pribadi" checked />
+                                          <label for="pribadi">Pribadi</label>
+                                          <input type="radio" name="tipe" id="grup" />
+                                          <label for="grup">Grup</label>
+                                    </div>
+                                    <input class="create" type="password" placeholder="Masukkan PIN" />
+                                    <div class="btn-submit">
+                                          <button class="submit" type="submit">Buat</button>
+                                    </div>
+                              </form>
+                        </div>
+                  </div>
+            </div>
+            <script src="js/frontend/dashboard.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      </body>
+</html>

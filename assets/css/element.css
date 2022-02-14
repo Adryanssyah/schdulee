@@ -1,0 +1,120 @@
+/* MODAL BOX DASHBOARD */
+.modal-tambah {
+      display: none;
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0); /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-tambah .tambah-jadwal {
+      width: 380px;
+      height: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 19px;
+      background-color: #ffffff;
+      box-shadow: -2px 9px 106px -27px rgba(0, 0, 0, 0.47);
+      -webkit-box-shadow: -2px 9px 106px -27px rgba(0, 0, 0, 0.47);
+      -moz-box-shadow: -2px 9px 106px -27px rgba(0, 0, 0, 0.47);
+}
+
+.modal-tambah .tambah-jadwal .close {
+      color: #aaaaaa;
+      float: right;
+      cursor: pointer;
+      font-size: 28px;
+      font-weight: bold;
+}
+
+.modal-tambah .tambah-jadwal .close:hover,
+.close:focus {
+      color: #5151f9;
+      text-decoration: none;
+      cursor: pointer;
+}
+
+.modal-tambah .tambah-jadwal .form {
+      /* background-color: #5151f9; */
+      margin: 50px 0 50px 0;
+      flex-direction: column;
+}
+.modal-tambah .tambah-jadwal .form .btn-submit {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+}
+
+.modal-tambah .tambah-jadwal .form .btn-submit .submit {
+      width: 150px;
+      padding: 10px 0 10px 0;
+      border-radius: 6px;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #ffffff;
+      background: none;
+      border: solid 1px #8d8dff;
+      background-color: #5151f9;
+}
+
+.modal-tambah .tambah-jadwal .form form {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-evenly; */
+}
+.modal-tambah .tambah-jadwal .form .create {
+      width: 80%;
+      height: 40px;
+      padding: 22px;
+      border-radius: 5px;
+      border: solid 1px rgb(212, 212, 212);
+      background-color: rgb(255, 255, 255);
+      transition: all 0.7s;
+}
+
+.modal-tambah .tambah-jadwal .form .create:focus {
+      background-color: rgb(255, 255, 255);
+      outline: none;
+      border: solid 1px rgb(114, 114, 114);
+}
+.modal-tambah .tambah-jadwal .form .tipe {
+      display: flex;
+      float: left;
+      margin: 20px 0 20px 0;
+      gap: 4px;
+}
+
+.modal-tambah .tambah-jadwal .form h3 {
+      font-size: 19px;
+      margin-top: -32px;
+      margin-bottom: 40px;
+      font-weight: bold;
+}
+input[type='radio'] {
+      visibility: hidden;
+      height: 0;
+      width: 0;
+}
+
+label {
+      /* display: table-cell; */
+      /* vertical-align: middle; */
+      /* text-align: center; */
+      cursor: pointer;
+      border: solid 1px #bebebe;
+      color: rgb(100, 100, 100);
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 13px;
+}
+input[type='radio']:checked + label {
+      background-color: #5151f9;
+      color: white;
+}
